@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Tracker</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Poppins;
+        }
+        body {
+            background: linear-gradient(to bottom right, #f0f4ff, #d2e3ff);
+        }
+        nav {
+            display: flex;
+            color: white;
+            padding: 1rem;
+            background-color: black;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav h1 {
+            margin-left: 20px;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 2rem;
+            margin-right: 20px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: darkgray;
+        }
+        section {
+            height: calc(100vh - 70px);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 2rem;
+        }
+        section h1 {
+            font-size: 3rem;
+            margin-bottom: 30px;
+        }
+        section .btn {
+            display: inline-block;
+            background-color: blue;
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: 400;
+            transition: background 0.3s ease;
+        }
+        .btn:hover {
+            background-color: rgb(2, 2, 225);
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <h1>Job Tracker</h1>
+        <ul>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="signup.html">Sign up</a></li>
+        </ul>
+    </nav>
+    <section>
+        <h1>Track All your Job Applications in One Place.<br>
+            Stay Organized, Focused,<br>and on Top of your Job Hunt.
+        </h1>
+        <a href="login.html" class="btn">Get Started</a>
+    </section>
+</body>
+</html>
