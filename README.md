@@ -3,8 +3,7 @@
 A full-stack Job Tracker application that helps users efficiently manage and track their job applications, interviews, and offers in one centralized dashboard.
 
 ## 🚀 Live Demo
-👉 [Visit the Live App](https://your-live-link.com)  
-*(Replace with your actual deployed link)*
+
 
 ---
 
@@ -42,5 +41,5 @@ This app uses JWT (JSON Web Token) for secure user authentication. Passwords are
 
 🧑‍💻 Author
 Manikandan T
-📧 manig956@gmail.com
+📧 manig5956@gmail.com
 📱 6379715693
