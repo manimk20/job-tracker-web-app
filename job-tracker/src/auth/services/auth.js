@@ -5,6 +5,7 @@ export const signupUser = async (userData) => {
         const res = await fetch(`${API_BASE}/signup`, {
             method: "POST",
             headers: {"Content-Type": "application/json"},
+            credentials: "include",
             body: JSON.stringify(userData),
         });
         if (!res.ok) {
@@ -23,6 +24,7 @@ export const loginUser = async (credentials) => {
         const res = await fetch(`${API_BASE}/login`, {
             method: "POST",
             headers: {"Content-Type": "application/json"},
+            credentials: "include",
             body: JSON.stringify(credentials),
         });
 
