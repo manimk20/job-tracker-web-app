@@ -4,7 +4,7 @@ A full-stack Job Tracker application that helps users efficiently manage and tra
 
 ## 🚀 Live Demo
 - https://job-tracker-web-app-gamma.vercel.app
-- https://job-tracker-web-app.onrender.com/api
+- https://job-tracker-web-app.onrender.com
 ---
 
 ## 📌 Features
