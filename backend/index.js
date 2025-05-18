@@ -6,11 +6,11 @@ import { createJob, getJobs, updateJob, deleteJob } from "./controllers/jobContr
 import { protect } from "./middleware/authMiddleware.js";
 
 dotenv.config();
-const allowedOrigin = "http://localhost:5173";
+const allowedOrigin = "https://job-tracker-web-app-gamma.vercel.app/";
 const app = express();
 app.use(cors({
     origin: allowedOrigin,
-    credentials:true
+    credentials: true,
 }));
 app.use(express.json());
 
@@ -27,5 +27,5 @@ app.delete("/api/jobs/:id", protect, deleteJob);
 
 const PORT = process.env.PORT;
 app.listen(PORT, () => {
-    console.log(`Server running on port:http://localhost:${PORT}`)
-})
+    console.log(`Server running on port:http://localhost:${PORT}`);
+});
