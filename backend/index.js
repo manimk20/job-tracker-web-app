@@ -6,18 +6,13 @@ import { createJob, getJobs, updateJob, deleteJob } from "./controllers/jobContr
 import { protect } from "./middleware/authMiddleware.js";
 
 dotenv.config();
-const allowedOrigin = "https://job-tracker-web-app-gamma.vercel.app";
+const allowedOrigin = ["https://job-tracker-web-app-gamma.vercel.app, http://localhost:5000"];
 const app = express();
 app.use(cors({
     origin: allowedOrigin,
     credentials: true,
 }));
 app.use(express.json());
-app.use((req, res, next) => {
-    console.log(`${req.method} ${req.path}`);
-    next();
-});
-
 app.get("/", (req,res) => {
     res.send("API is working");
 });
