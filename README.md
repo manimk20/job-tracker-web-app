@@ -3,8 +3,8 @@
 A full-stack Job Tracker application that helps users efficiently manage and track their job applications, interviews, and offers in one centralized dashboard.
 
 ## 🚀 Live Demo
-
-
+- https://job-tracker-web-app-gamma.vercel.app (Frontend)
+- https://job-tracker-web-app.onrender.com (backend)
 ---
 
 ## 📌 Features
